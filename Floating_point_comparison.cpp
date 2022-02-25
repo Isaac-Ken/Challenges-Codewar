@@ -1,4 +1,4 @@
-#Initial
+//Initial
 #include <cmath>
 using namespace std;
 
@@ -6,7 +6,7 @@ bool approx_equals(double a, double b) {
   return round(a*100) == round(b*100);
 }
 
-#Simple sol
+//Simple sol
 #include <cmath>
 using namespace std;
 
@@ -14,7 +14,7 @@ bool approx_equals(double a, double b) {
   return abs(a - b) < 0.001;
 }
 
-#Complex sol
+//Complex sol
 #include <cmath>
 using namespace std;
 
